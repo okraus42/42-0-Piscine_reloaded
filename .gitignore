@@ -52,3 +52,6 @@ Mkfile.old
 dkms.conf
 .vscode/settings.json
 .comments
+ex22/main.c
+.gitignore
+ex23/main.c
