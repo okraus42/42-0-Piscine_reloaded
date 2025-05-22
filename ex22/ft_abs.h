@@ -6,11 +6,11 @@
 /*   By: okraus <okraus@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/20 14:45:03 by okraus            #+#    #+#             */
-/*   Updated: 2025/05/20 14:59:45 by okraus           ###   ########.fr       */
+/*   Updated: 2025/05/22 20:13:53 by okraus           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
-# define ABS(Value) ((Value) * ((Value) >= 0ULL) - (Value) * ((Value) < 0ULL))
+# define ABS(Value) ((Value) * ((Value) >= 0LL) - ((Value) * ((Value) < 0LL)))
 #endif // FT_ABS_H

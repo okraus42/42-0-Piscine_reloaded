@@ -6,7 +6,7 @@
 #    By: okraus <okraus@student.42prague.com>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/22 19:31:41 by okraus            #+#    #+#              #
-#    Updated: 2025/05/22 19:37:55 by okraus           ###   ########.fr        #
+#    Updated: 2025/05/22 20:01:36 by okraus           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ SRC		= srcs/ft_putchar.c\
 		srcs/ft_putstr.c\
 		srcs/ft_strcmp.c\
 		srcs/ft_strlen.c\
-		srcs/ft_stwap.c
+		srcs/ft_swap.c
 
 OBJ		= $(SRC:.c=.o)
 INCS	= ./includes
@@ -26,7 +26,7 @@ CFLAGS	= -Wall -Wextra -Werror
 all: $(NAME)
 
 %.o: %.c
-	$(CC) $(CFLAGS) -I $(INCS) -c $< -o $@
+	$(CC) $(CFLAGS) -I$(INCS) -c $< -o $@
 
 $(NAME): $(OBJ)
 	$(LIBC) $(NAME) $(OBJ)
