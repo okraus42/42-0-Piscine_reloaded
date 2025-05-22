@@ -6,11 +6,9 @@
 /*   By: okraus <okraus@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/19 13:02:31 by okraus            #+#    #+#             */
-/*   Updated: 2025/05/22 20:29:31 by okraus           ###   ########.fr       */
+/*   Updated: 2025/05/22 20:29:47 by okraus           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_recursive_factorial(int nb)
 {
